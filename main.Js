@@ -7,7 +7,9 @@ let firstCard,secondCard;
 
 
 function flipCard(){
+    //checking if the cards are flipped
     if(blocker) return;
+    //checking if first and second card are the same
     if(this===firstCard) return;
     this.classList.add('flip');
     //first click
